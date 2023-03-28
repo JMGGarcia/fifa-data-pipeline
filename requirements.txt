@@ -1,0 +1,11 @@
+kaggle==1.5.13
+pandas==1.5.2
+prefect==2.7.7
+prefect-sqlalchemy==0.2.2
+prefect-gcp[cloud_storage]==0.2.4
+prefect-gcp[bigquery]==0.2.4
+protobuf==4.21.11
+pyarrow==10.0.1
+pyspark==3.3.2
+pandas-gbq==0.18.1
+sqlalchemy==1.4.46
