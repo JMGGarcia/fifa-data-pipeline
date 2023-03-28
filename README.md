@@ -16,7 +16,7 @@ This project was made for the [DataTalksClub data engineering zoomcamp](https://
 
 ## Tools
 
-This project gave me the opportunity to practice with some tools I hadn't much opportunity to use previously:
+The tools used in this project were:
 
 - **Google Cloud**: Where the whole project operated
 - **Terraform**: To programmatically instantiate different cloud components
@@ -44,7 +44,7 @@ Prefect has various ETL operations:
 - Download the dataset from Kaggle and store it locally.
 - Unzip the file
 - Upload the male players and male teams csv files to GCS
-  - I wanted to first convert the files to .parquet, but since the players file had 5Gb+ size, the VM run out of memory. This, I uploaded the .csv file directly
+  - I wanted to first convert the files to .parquet, but since the players file had 5Gb+ size, the VM run out of memory. Thus, I uploaded the .csv file directly
 - Create external tables based on those files
 - Create partitioned, clustered, materialized tables based on the external tables
 - Delete local files that are no longer needed
@@ -93,7 +93,7 @@ To setup the virtual machine where we will run Terraform and Prefect:
   
 ### Terraform 
 
-We will use terraform to create our could storage and BigQuery services.
+We will use terraform to create our cloud storage and BigQuery services.
 
 - Run: `terraform init` -> `terraform plan` -> `terraform apply` 
 
